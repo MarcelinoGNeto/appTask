@@ -21,7 +21,7 @@ export default function Details({navigation, route}){
             <Text style={styles.label}>Descrição</Text>
             <TextInput 
             style={styles.input}
-            placeholder='Digite a atualização'
+            placeholder='Digite a atualização aqui'
             onChangeText={setDescriptionEdit}
             value={descriptionEdit}
             />
