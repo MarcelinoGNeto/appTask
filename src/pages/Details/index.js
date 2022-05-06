@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
 import { View, Text, TextInput, TouchableOpacity } from 'react-native'
 
-import database from '../../config/firebaseconfig.js'
+import firebase from '../../config/firebaseconfig.js'
 import styles from './style'
 
 export default function Details({navigation, route}){
+    const database = firebase.firestore()
     const [descriptionEdit, setDescriptionEdit] = useState(route.params.description)
     const idTask = route.params.id
 
     //CRUD - UPDATE (.update)
     function editTask(description, id){
-        database.collection('Tasks').doc(id).update({
+        database.collection(route.params.idUser).doc(id).update({
             description: description,
         })
         navigation.navigate('Task')

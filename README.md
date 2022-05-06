@@ -9,12 +9,14 @@
 </ul>
 <h2 id="motivation">Screenshots:</h2>
 <ul>
-<li>Image 1 (Task: displays all saved tasks, with the possibility to delete them.)
-<li>Image 2 (New Task: add a new task)
-<li>Image 3 (Details: displays the task details, with the possibility to update.)
+<li>Image 1 (Login: login screen created through firebase auth function)
+<li>Image 2 (Task/Logout: displays all saved tasks, with the possibility to delete them, and below the new task and logout buttons)
+<li>Image 3 (New Task: add a new task)
+<li>Image 4 (Details: displays the task details, with the possibility to update.)
 </ul>
-<img src="assets/screenshots/home.png" alt="home" style="width: 300px"><br>
-<img src="assets/screenshots/new_task.png" alt="new task" style="width: 300px"><br>
-<img src="assets/screenshots/details.png" alt="details" style="width: 300px">
+<img src="assets/screenshots/login.png" alt="home" style="width: 200px"><br>
+<img src="assets/screenshots/logout.png" alt="new task" style="width: 200px"><br>
+<img src="assets/screenshots/new_task.png" alt="details" style="width: 200px"><br>
+<img src="assets/screenshots/details.png" alt="details" style="width: 200px">
 
 <p>In development...🚧</p>
