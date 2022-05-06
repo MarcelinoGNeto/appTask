@@ -39,7 +39,21 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderRadius:50
     },
+    buttonLogout: {
+        width:60,
+        height:60,
+        position: "absolute",
+        bottom: 30,
+        right:20,
+        justifyContent: "center",
+        alignItems: "center",
+    },
     iconButton:{
+        color: "#ffffff",
+        fontSize: 25,
+        fontWeight: "bold"
+    },
+    iconButtonLogout:{
         color: "#ffffff",
         fontSize: 25,
         fontWeight: "bold"

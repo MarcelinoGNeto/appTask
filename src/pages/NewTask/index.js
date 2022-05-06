@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { TextInput } from "react-native-gesture-handler";
-import database from "../../config/firebaseconfig.js";
+import firebase from "../../config/firebaseconfig.js";
 import styles from "./style";
 
-export default function NewTask({ navigation }, props) {
+export default function NewTask({ navigation, route }, props) {
+  const database = firebase.firestore()
   const [description, setDescription] = useState(null);
 
   //CRUD - CREATE (.add)
   function addTask() {
-    database.collection("Tasks").add({
+    database.collection(route.params.idUser).add({
       description: description,
       status: false,
     });

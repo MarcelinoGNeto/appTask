@@ -2,14 +2,14 @@ import firebase from 'firebase'
 import 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBI92H9ICjRrbF9P_5Fkhg6FCjigCI0fF0",
-  authDomain: "task-881e9.firebaseapp.com",
-  projectId: "task-881e9",
-  storageBucket: "task-881e9.appspot.com",
-  messagingSenderId: "1033701880956",
-  appId: "1:1033701880956:web:9ef18b6c593547b86405f9"
+  apiKey: "AIzaSyDD5fV-p30tNan74I-UzuIhX_eJXqGqUt8",
+  authDomain: "authentication-8d569.firebaseapp.com",
+  projectId: "authentication-8d569",
+  storageBucket: "authentication-8d569.appspot.com",
+  messagingSenderId: "1008691947260",
+  appId: "1:1008691947260:web:a4c6ef3845730d7a365979"
 };
 
 firebase.initializeApp(firebaseConfig)
-const database = firebase.firestore()
-export default database
+
+export default firebase
